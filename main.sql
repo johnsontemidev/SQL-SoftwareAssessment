@@ -1,10 +1,10 @@
 /*-- Q1 --*/
 CREATE TABLE call_log(
 	number_dialled varchar(255),
-    date_dialled date,
-    time_dialled time,
-    result varchar(255),
-    user_extension varchar(255)
+    date_dialled DATE,
+    time_dialled TIME,
+    RESULT VARCHAR(255),
+    user_extension VARCHAR(255)
 );
 /*-- Q2 --*/
 SELECT 
